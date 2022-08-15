@@ -1,8 +1,13 @@
 {
   "name": "my-app",
   "version": "0.1.0",
+  "proxy": "https://arbeidsplassen.nav.no",
   "private": true,
   "dependencies": {
+    "@navikt/ds-css": "^1.0.0-rc.8",
+    "@navikt/ds-css-internal": "^1.0.0-rc.8",
+    "@navikt/ds-react": "^1.0.0-rc.8",
+    "@navikt/ds-react-internal": "^1.0.0-rc.8",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",

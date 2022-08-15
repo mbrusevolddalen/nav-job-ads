@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#root{
+  height: 100vh;
+}
+
+.navds-loader{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.spinner-wrapper{
+  height: inherit;
+  display: flex;
+  overflow: hidden;
+}
