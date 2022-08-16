@@ -10,7 +10,7 @@ const JobAds: FC<JobAdsProps> = ({ jobAds }) =>
     <div>
         <Accordion>
             {jobAds.map((jobAd) =>
-                <Accordion.Item>
+                <Accordion.Item key={jobAd.uuid}>
                     <Accordion.Header>
                         {jobAd.title}
                     </Accordion.Header>
